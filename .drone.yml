@@ -24,3 +24,10 @@ steps:
       from_secret: docker_password
     repo: hotio/nzbhydra2
     auto_tag: true
+
+- name: microbadger
+  image: plugins/webhook
+  pull: always
+  settings:
+    urls:
+      - https://hooks.microbadger.com/images/hotio/nzbhydra2/M1eY_6Rb5Ap1bsS-nuUzsSzza1w=
