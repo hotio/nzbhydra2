@@ -17,7 +17,7 @@ RUN apt update && \
 
 # install app
 # https://github.com/theotherp/nzbhydra2/releases
-RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v2.3.19/nzbhydra2-2.3.19-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}" && rm "${zipfile}" && \
+RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v2.3.21/nzbhydra2-2.3.21-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}" && rm "${zipfile}" && \
     chmod +x "${APP_DIR}/nzbhydra2" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
