@@ -1,11 +1,5 @@
 # [NZBHydra2](https://github.com/theotherp/nzbhydra2)
 
-## Support on Beerpay
-
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/hotio/docker-nzbhydra2/badge.svg)](https://beerpay.io/hotio/docker-nzbhydra2)
-
 ## Donations
 
 NANO: `xrb_1bxqm6nsm55s64rgf8f5k9m795hda535to6y15ik496goatakpupjfqzokfc`  
