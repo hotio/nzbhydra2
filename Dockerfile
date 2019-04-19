@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 ENV APP="NZBHydra2"
 EXPOSE 5076
-HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:5076/api || exit 1
+HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:5076 || exit 1
 
 # install packages
 RUN apt update && \
