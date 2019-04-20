@@ -3,4 +3,4 @@
 
 umask "${UMASK}"
 
-exec s6-setuidgid hotio "${APP_DIR}/nzbhydra2" --nobrowser --datafolder "${CONFIG_DIR}/app"
+exec s6-setuidgid hotio python "${APP_DIR}/nzbhydra2wrapper.py" --nobrowser --datafolder "${CONFIG_DIR}/app"
