@@ -1,5 +1,9 @@
 # [NZBHydra2](https://github.com/theotherp/nzbhydra2)
 
+[![badge](https://images.microbadger.com/badges/image/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own image badge on microbadger.com")
+[![badge](https://images.microbadger.com/badges/version/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own version badge on microbadger.com")
+[![badge](https://images.microbadger.com/badges/commit/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own commit badge on microbadger.com")
+
 ## Donations
 
 NANO: `xrb_1bxqm6nsm55s64rgf8f5k9m795hda535to6y15ik496goatakpupjfqzokfc`  
