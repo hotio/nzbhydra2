@@ -17,7 +17,7 @@ if [[ "${VERSION}" != "image" ]]; then
                 url="${VERSION}"
                 ;;
         esac
-        rm -rf "${APP_DIR}" && mkdir "${APP_DIR}" && tempfile="$(mktemp)" && curl -fsSL -o "${tempfile}" "${url}" && unzip -q "${tempfile}" -d "${APP_DIR}" && chmod +x "${APP_DIR}/nzbhydra2" && chmod -R u=rwX,go=rX "${APP_DIR}" && rm -f "${tempfile}" && INSTALL_OK="yes"
+        rm -rf "${APP_DIR}" && mkdir "${APP_DIR}" && tempfile="$(mktemp)" && curl -fsSL -o "${tempfile}" "${url}" && unzip -q "${tempfile}" -d "${APP_DIR}" && curl -fsSL -o "${APP_DIR}/nzbhydra2wrapper.py" "https://raw.githubusercontent.com/theotherp/nzbhydra2/master/other/wrapper/nzbhydra2wrapper.py" && chmod -R u=rwX,go=rX "${APP_DIR}" && rm -f "${tempfile}" && INSTALL_OK="yes"
         if [[ "${INSTALL_OK}" != "yes" ]]; then
             echo -e '\e[31m'"Installation of \"${url}\" failed!"'\e[0m'
             exit 1
