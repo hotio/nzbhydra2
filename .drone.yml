@@ -212,6 +212,8 @@ steps:
 
 depends_on:
   - develop-amd64
+  - develop-arm64
+  - develop-arm
   - release-amd64
   - release-arm64
   - release-arm
