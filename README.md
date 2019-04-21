@@ -20,7 +20,7 @@ docker run --rm --name nzbhydra2 -p 5076:5076 -v /tmp/nzbhydra2:/config hotio/nz
 
 ```yaml
 nzbhydra2:
-  container_name: nabhydra2
+  container_name: nzbhydra2
   image: hotio/nzbhydra2
   ports:
     - "5076:5076"
