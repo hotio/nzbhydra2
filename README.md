@@ -1,8 +1,7 @@
-# [NZBHydra2](https://github.com/theotherp/nzbhydra2)
+# [docker-nzbhydra2](https://github.com/hotio/docker-nzbhydra2)
 
-[![badge](https://images.microbadger.com/badges/image/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own image badge on microbadger.com")
-[![badge](https://images.microbadger.com/badges/version/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own version badge on microbadger.com")
-[![badge](https://images.microbadger.com/badges/commit/hotio/nzbhydra2.svg)](https://microbadger.com/images/hotio/nzbhydra2 "Get your own commit badge on microbadger.com")
+![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2?style=flat-square)
+![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-nzbhydra2?style=flat-square)
 
 ## Donations
 
