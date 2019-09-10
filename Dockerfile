@@ -1,11 +1,7 @@
 FROM hotio/base
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG COMMIT
-ARG TAG
 
-ENV COMMIT="${COMMIT}" TAG="${TAG}"
-ENV APP="NZBHydra2"
 EXPOSE 5076
 HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:5076 || exit 1
 
@@ -25,3 +21,9 @@ RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/the
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
+
+ARG COMMIT
+ARG TAG
+ARG APP
+
+ENV COMMIT="${COMMIT}" TAG="${TAG}" APP="${APP}"
