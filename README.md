@@ -1,7 +1,8 @@
-# [docker-nzbhydra2](https://github.com/hotio/docker-nzbhydra2)
+# nzbhydra2
 
-![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2?style=flat-square)
-![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-nzbhydra2?style=flat-square)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey?style=flat-square)](https://github.com/hotio/docker-nzbhydra2)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2?style=flat-square)](https://hub.docker.com/r/hotio/nzbhydra2)
+[![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-nzbhydra2?style=flat-square)](https://cloud.drone.io/hotio/docker-nzbhydra2)
 
 ## Donations
 
