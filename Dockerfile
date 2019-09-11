@@ -22,8 +22,5 @@ RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/the
 
 COPY root/ /
 
-ARG COMMIT
 ARG TAG
-ARG APP
-
-ENV COMMIT="${COMMIT}" TAG="${TAG}" APP="${APP}"
+ENV TAG="${TAG}"
