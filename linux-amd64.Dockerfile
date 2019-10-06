@@ -17,7 +17,7 @@ RUN apt update && \
 COPY root/ /
 
 # https://github.com/theotherp/nzbhydra2/releases
-ENV NZBHYDRA2_VERSION=2.7.0
+ENV NZBHYDRA2_VERSION=2.7.2
 
 # install app
 RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v${NZBHYDRA2_VERSION}/nzbhydra2-${NZBHYDRA2_VERSION}-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}" && rm "${zipfile}" && \
