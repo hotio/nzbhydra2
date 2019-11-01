@@ -14,8 +14,6 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-COPY root/ /
-
 # https://github.com/theotherp/nzbhydra2/releases
 ENV NZBHYDRA2_VERSION=2.7.5
 
@@ -23,3 +21,5 @@ ENV NZBHYDRA2_VERSION=2.7.5
 RUN zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v${NZBHYDRA2_VERSION}/nzbhydra2-${NZBHYDRA2_VERSION}-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}" && rm "${zipfile}" && \
     curl -fsSL -o "${APP_DIR}/nzbhydra2wrapper.py" "https://raw.githubusercontent.com/theotherp/nzbhydra2/master/other/wrapper/nzbhydra2wrapper.py" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
+
+COPY root/ /
