@@ -1,8 +1,7 @@
 # nzbhydra2
 
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey?style=flat-square)](https://github.com/hotio/docker-nzbhydra2)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2?style=flat-square)](https://hub.docker.com/r/hotio/nzbhydra2)
-[![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-nzbhydra2?style=flat-square)](https://cloud.drone.io/hotio/docker-nzbhydra2)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-nzbhydra2)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2)](https://hub.docker.com/r/hotio/nzbhydra2)
 
 ## Starting the container
 
@@ -22,10 +21,10 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag       | Description          |
-| ----------|----------------------|
-| latest    | The same as `stable` |
-| stable    | Stable version       |
+| Tag      | Description          | Build Status                                                                                                                                                |
+| ---------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| latest   | The same as `stable` |                                                                                                                                                             |
+| stable   | Stable version       | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-nzbhydra2/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-nzbhydra2) |
 
 You can also find tags that reference a commit or version number.
 
