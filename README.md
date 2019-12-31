@@ -9,7 +9,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name nzbhydra2 -p 5076:5076 -v /tmp/nzbhydra2:/config hotio/nzbhydra2
+docker run --rm --name nzbhydra2 -p 5076:5076 -v /<host_folder>:/config hotio/nzbhydra2
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
