@@ -3,6 +3,7 @@
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-nzbhydra2)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2)](https://hub.docker.com/r/hotio/nzbhydra2)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
+[![Upstream](https://img.shields.io/badge/upstream-project-yellow)](https://github.com/theotherp/nzbhydra2)
 
 ## Starting the container
 
