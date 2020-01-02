@@ -7,7 +7,7 @@ EXPOSE 5076
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        openjdk-11-jre-headless && \
+        python openjdk-11-jre-headless && \
 # clean up
     apt autoremove -y && \
     apt clean && \
