@@ -1,6 +1,6 @@
 # nzbhydra2
 
-<img src="https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/nzbhydra2.png" alt="Logo" height="130" width="130">
+<img src="https://raw.githubusercontent.com/hotio/docker-nzbhydra2/master/img/nzbhydra2.png" alt="Logo" height="130" width="130">
 
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-nzbhydra2)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/nzbhydra2)](https://hub.docker.com/r/hotio/nzbhydra2)
