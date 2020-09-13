@@ -13,28 +13,13 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG NZBHYDRA2_VERSION
-ARG PACKAGE_VERSION=${NZBHYDRA2_VERSION}
+ARG VERSION
+ARG PACKAGE_VERSION=${VERSION}
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
-    zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v${NZBHYDRA2_VERSION}/nzbhydra2-${NZBHYDRA2_VERSION}-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}/bin" && rm "${zipfile}" && \
+    zipfile="/tmp/app.zip" && curl -fsSL -o "${zipfile}" "https://github.com/theotherp/nzbhydra2/releases/download/v${VERSION}/nzbhydra2-${VERSION}-linux.zip" && unzip -q "${zipfile}" -d "${APP_DIR}/bin" && rm "${zipfile}" && \
     echo "ReleaseType=Release\nPackageVersion=${PACKAGE_VERSION}\nPackageAuthor=hotio" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
-
-ARG LABEL_CREATED
-LABEL org.opencontainers.image.created=$LABEL_CREATED
-ARG LABEL_TITLE
-LABEL org.opencontainers.image.title=$LABEL_TITLE
-ARG LABEL_REVISION
-LABEL org.opencontainers.image.revision=$LABEL_REVISION
-ARG LABEL_SOURCE
-LABEL org.opencontainers.image.source=$LABEL_SOURCE
-ARG LABEL_VENDOR
-LABEL org.opencontainers.image.vendor=$LABEL_VENDOR
-ARG LABEL_URL
-LABEL org.opencontainers.image.url=$LABEL_URL
-ARG LABEL_VERSION
-LABEL org.opencontainers.image.version=$LABEL_VERSION
