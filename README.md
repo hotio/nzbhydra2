@@ -1,6 +1,6 @@
 # nzbhydra2
 
-![logo](https://hotio.dev/img/nzbhydra2.png)
+[<img src="https://hotio.dev/img/nzbhydra2.png" alt="logo" height="130" width="130">](https://github.com/theotherp/nzbhydra2)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-nzbhydra2)
