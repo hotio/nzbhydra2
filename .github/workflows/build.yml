@@ -56,7 +56,7 @@ jobs:
         run: |
           ARCHITECTURE=${{ matrix.architecture }}
           VERSION=$(jq -r '.version' < VERSION.json)
-          BUILD_ARGS=$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json)\nPACKAGE_VERSION=${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
+          BUILD_ARGS=$(jq -r 'to_entries[] | [(.key | ascii_upcase),.value] | join("=")' < VERSION.json | paste -sd,),PACKAGE_VERSION=${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}
           echo ::set-output name=created::$(date -u +'%Y-%m-%dT%H:%M:%SZ')
           echo ::set-output name=title::${GITHUB_REPOSITORY//docker-/}:${GITHUB_REF//refs\/heads\//}
           echo ::set-output name=revision::${GITHUB_SHA}
