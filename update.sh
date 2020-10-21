@@ -15,7 +15,7 @@ elif [[ ${1} == "tests" ]]; then
     echo "Check if app works..."
     app_url="http://localhost:5076"
     docker run --rm --network host -d --name service -e DEBUG="yes" "${2}"
-    currenttime=$(date +%s); maxtime=$((currenttime+120)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
+    currenttime=$(date +%s); maxtime=$((currenttime+220)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     curl -fsSL "${app_url}" > /dev/null
     status=$?
     echo "Show docker logs..."
@@ -24,7 +24,7 @@ elif [[ ${1} == "tests" ]]; then
 elif [[ ${1} == "screenshot" ]]; then
     app_url="http://localhost:5076"
     docker run --rm --network host -d --name service -e DEBUG="yes" "${2}"
-    currenttime=$(date +%s); maxtime=$((currenttime+120)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
+    currenttime=$(date +%s); maxtime=$((currenttime+220)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     docker run --rm --network host --entrypoint="" -u "$(id -u "$USER")" -v "${GITHUB_WORKSPACE}":/usr/src/app/src zenika/alpine-chrome:with-puppeteer node src/puppeteer.js
     exit 0
 else
