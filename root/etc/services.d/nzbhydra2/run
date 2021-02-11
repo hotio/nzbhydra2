@@ -4,4 +4,4 @@
 umask "${UMASK}"
 
 # shellcheck disable=SC2086
-exec s6-setuidgid hotio python3 "${APP_DIR}/bin/nzbhydra2wrapperPy3.py" --nobrowser --datafolder "${CONFIG_DIR}/app" ${ARGS}
+exec s6-setuidgid hotio python3 "${APP_DIR}/bin/nzbhydra2wrapperPy3.py" --nobrowser --datafolder "${CONFIG_DIR}" ${ARGS}
