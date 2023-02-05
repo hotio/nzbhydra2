@@ -1,7 +1,7 @@
 {
   "description": "Pre-releases",
-  "version": "5.1.1",
-  "changelog": "https://github.com/theotherp/nzbhydra2/compare/v5.1.0...v5.1.1",
+  "version": "5.1.2",
+  "changelog": "https://github.com/theotherp/nzbhydra2/compare/v5.1.1...v5.1.2",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "jammy",
   "upstream_digest_amd64": "sha256:6312d9ca4198da3f10fed5a56011a7278f5fb7ad35ecf85123dfef03b391e786",
