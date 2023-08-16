@@ -5,7 +5,7 @@
   "changelog": "https://github.com/theotherp/nzbhydra2/compare/v5.1.9...v5.1.10",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "jammy",
-  "upstream_digest_amd64": "sha256:d5f35f2e3bafbfa970bd67526dee0ac39f31fb19345bf9f0fb0d116f7bf047f5",
-  "upstream_digest_arm64": "sha256:a2e91dd1c4b7959855373018aa8050e50fcf4059ae82902d91d1e8c408290d3a",
+  "upstream_digest_amd64": "sha256:25e9ef9adac0809316a5d9235febda111126808024aa5668ed79f85915f5f371",
+  "upstream_digest_arm64": "sha256:9489d481a3e64de4d08083a958ac4b0834aaf3ec5e308a93a639261f54213ff5",
   "test_url": "http://localhost:5076"
 }
