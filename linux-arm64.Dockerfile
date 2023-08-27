@@ -28,4 +28,3 @@ RUN mkdir "${APP_DIR}/bin" && \
     chmod +x "${APP_DIR}/bin/core"
 
 COPY root/ /
-RUN chmod -R +x /etc/cont-init.d/ /etc/services.d/
