@@ -1,8 +1,8 @@
 {
   "latest": true,
   "description": "Releases",
-  "version": "5.1.11",
-  "changelog": "https://github.com/theotherp/nzbhydra2/compare/v5.3.1...v5.1.11",
+  "version": "5.3.2",
+  "changelog": "https://github.com/theotherp/nzbhydra2/compare/v5.1.11...v5.3.2",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "jammy",
   "upstream_digest_amd64": "sha256:c017296d1d068a545ef0a0d0006fc674d519d7f08a7b9d1117b8af15a93ae4a7",
