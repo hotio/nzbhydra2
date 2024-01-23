@@ -5,8 +5,6 @@ FROM ${UPSTREAM_IMAGE}@${UPSTREAM_DIGEST_AMD64}
 EXPOSE 5076
 ARG DEBIAN_FRONTEND="noninteractive"
 
-VOLUME ["${CONFIG_DIR}"]
-
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
