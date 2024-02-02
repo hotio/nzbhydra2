@@ -3,8 +3,10 @@ ARG UPSTREAM_DIGEST_ARM64
 
 FROM ${UPSTREAM_IMAGE}@${UPSTREAM_DIGEST_ARM64}
 EXPOSE 5076
-ARG DEBIAN_FRONTEND="noninteractive"
+ARG IMAGE_STATS
+ENV IMAGE_STATS=${IMAGE_STATS}
 
+ARG DEBIAN_FRONTEND="noninteractive"
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
