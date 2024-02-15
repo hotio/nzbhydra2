@@ -14,13 +14,13 @@
   "testing": {
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2024-02-14T13:31:55.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/7901955362",
+    "last_updated": "2024-02-15T08:12:40.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/7912732468",
     "latest": false,
     "tags": [
       "testing",
       "testing-5.3.7",
-      "testing-558ae33"
+      "testing-fbdb681"
     ]
   }
 }
