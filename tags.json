@@ -2,13 +2,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2024-02-18T08:28:51.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/7947706175",
+    "last_updated": "2024-02-19T07:30:57.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/7955911000",
     "latest": true,
     "tags": [
       "release",
       "release-5.3.8",
-      "release-8e6d4b3"
+      "release-acea750"
     ]
   },
   "testing": {
