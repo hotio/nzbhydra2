@@ -7,5 +7,5 @@
   "upstream_digest_arm64": "sha256:e9f1d00b104de9a963128f9cd8ca48acf68c8e96936daf6bd6eadf479fd33b2d",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "jammyvpn",
-  "version": "5.3.8"
+  "version": "5.3.7"
 }
