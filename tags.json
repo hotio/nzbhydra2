@@ -2,13 +2,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2024-06-07T16:27:02.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/9419995563",
+    "last_updated": "2024-06-08T16:34:04.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/9430089555",
     "latest": true,
     "tags": [
       "release",
-      "release-7.1.0",
-      "release-38d25e9"
+      "release-7.2.0",
+      "release-04ce6d3"
     ]
   },
   "testing": {
