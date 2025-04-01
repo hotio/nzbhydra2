@@ -10,8 +10,7 @@ ARG DEBIAN_FRONTEND="noninteractive"
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        libfreetype6 \
-        openjdk-17-jre-headless && \
+        libfreetype6 && \
 # clean up
     apt autoremove -y && \
     apt clean && \
