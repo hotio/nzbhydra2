@@ -14,13 +14,13 @@
   "testing": {
     "description": "Pre-releases",
     "hide": false,
-    "last_updated": "2025-12-23T13:41:40.000Z",
-    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/20462002973",
+    "last_updated": "2025-12-24T07:47:24.000Z",
+    "last_updated_url": "https://github.com/hotio/nzbhydra2/actions/runs/20481152273",
     "latest": false,
     "tags": [
       "testing",
       "testing-8.1.2",
-      "testing-732093b"
+      "testing-bfcfcac"
     ]
   }
 }
