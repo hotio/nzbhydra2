@@ -27,3 +27,4 @@ RUN mkdir "${APP_DIR}/bin" && \
     chmod +x "${APP_DIR}/bin/core"
 
 COPY root/ /
+RUN find /etc/s6-overlay/s6-rc.d -name "run*" -execdir chmod +x {} +
