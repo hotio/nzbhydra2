@@ -1,11 +1,12 @@
 {
   "description": "Releases",
   "latest": true,
+  "packages_hash": "4f44104b5dbb4eacf2d49e106bfa8db1b3f8c57a",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:5076",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "noblevpn",
-  "upstream_tag_sha": "noblevpn-3725bcf",
+  "upstream_tag_sha": "noblevpn-0582a2e",
   "version": "8.8.1"
 }
