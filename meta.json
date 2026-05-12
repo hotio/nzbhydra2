@@ -1,6 +1,5 @@
 {
   "description": "Pre-releases",
-  "packages_hash": "4f44104b5dbb4eacf2d49e106bfa8db1b3f8c57a",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:5076",
