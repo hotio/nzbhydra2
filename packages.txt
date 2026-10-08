@@ -1,2 +1,2 @@
 libfreetype6=2.13.2+dfsg-1ubuntu0.2
-libpng16-16t64=1.6.43-5ubuntu0.6
+libpng16-16t64=1.6.43-5ubuntu0.7
